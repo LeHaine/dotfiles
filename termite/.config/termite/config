@@ -1,5 +1,5 @@
 [options]
-font = font = M+ 1mn 10
+font = M+ 1mn 10
 clickable_url = true
 scrollback_lines = 15000
 allow_bold = true
