@@ -187,10 +187,10 @@ bindsym $mod+Ctrl+Down resize shrink height 1 px or 1 ppt
 bindsym $mod+Ctrl+Left resize grow width 1 px or 1 ppt
 
 # Resizing by 10
-bindsym $mod+Ctrl+Shift+Right resize shrink width 10 px or 10 ppt
-bindsym $mod+Ctrl+Shift+Up resize grow height 10 px or 10 ppt
-bindsym $mod+Ctrl+Shift+Down resize shrink height 10 px or 10 ppt
-bindsym $mod+Ctrl+Shift+Left resize grow width 10 px or 10 ppt
+bindsym $mod+Ctrl+Shift+Right resize grow width 10 px or 10 ppt
+bindsym $mod+Ctrl+Shift+Up resize shrink height 10 px or 10 ppt
+bindsym $mod+Ctrl+Shift+Down resize grow height 10 px or 10 ppt
+bindsym $mod+Ctrl+Shift+Left resize shrink width 10 px or 10 ppt
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
