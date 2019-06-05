@@ -49,6 +49,10 @@ bindsym $mod+Shift+s move scratchpad
 # Show the first scratchpad window
 bindsym $mod+s scratchpad show
 
+# sticky floating window
+bindsym $mod+Ctrl+s sticky toggle
+
+
 # i3-gaps stuff :)
 gaps inner 10
 gaps outer 0
