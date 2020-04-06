@@ -1,0 +1,20 @@
+# 9 = stylus
+# 10 = pad
+# 11 = touch
+
+# xsetwacom --set 9 MapToOutput "1920x1200+0+0" # maps stylus to screen 0
+
+
+# Top four buttons
+xsetwacom --set "Wacom Intuos Pro M Pad pad" Button 1 "key shift" "key i" # show color selector
+xsetwacom --set "Wacom Intuos Pro M Pad pad" Button 2 "key insert" # new layer
+xsetwacom --set "Wacom Intuos Pro M Pad pad" Button 3 "key space" # Pan
+xsetwacom --set "Wacom Intuos Pro M Pad pad" Button 8 "key ctrl" # color selector
+
+# Bottom four buttons
+xsetwacom --set "Wacom Intuos Pro M Pad pad" Button 9 "key pgup" # move up a layer
+xsetwacom --set "Wacom Intuos Pro M Pad pad" Button 10 "key pgdn" # move down a layer
+xsetwacom --set "Wacom Intuos Pro M Pad pad" Button 11 "key ctrl" "key z" # Undo
+xsetwacom --set "Wacom Intuos Pro M Pad pad" Button 12 "key ctrl" "key shift" "key z" # redo
+
+xsetwacom --set "Wacom Intuos Pro M Finger touch" touch off

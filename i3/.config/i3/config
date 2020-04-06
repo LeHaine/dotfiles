@@ -272,6 +272,9 @@ bar {
     }
 }
 
+for_window [title="Microsoft Teams Notification"] floating enable
+
 exec --no-startup-id nitrogen --restore
+exec setup-wacom
 
 # vim:filetype=i3
