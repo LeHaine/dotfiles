@@ -276,6 +276,5 @@ for_window [title="Microsoft Teams Notification"] floating enable
 
 exec --no-startup-id nitrogen --restore
 exec setup-wacom
-exec dual-layout.sh
-
+exec --no-startup-id picom -b &
 # vim:filetype=i3
